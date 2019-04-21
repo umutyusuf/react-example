@@ -1,0 +1,12 @@
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,#2c4053 0,#2c4053 80%) !important; /* override background image gradient w/ flat color */
+}
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+  padding-left: 150px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
